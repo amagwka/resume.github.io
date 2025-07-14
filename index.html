@@ -1,13 +1,61 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Resume</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Resume</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Your Name</h1>
-  <p><a href="resume.pdf" target="_blank">Download Resume (PDF)</a></p>
+  <header>
+    <div class="container">
+      <h1>Your Name</h1>
+      <p class="contact-info">
+        City, Country &middot; Phone: (123) 456-7890 &middot;
+        <a href="mailto:your.email@example.com">your.email@example.com</a>
+      </p>
+      <p><a class="btn" href="resume.pdf" target="_blank">Download Resume (PDF)</a></p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Professional Summary</h2>
+      <p>A brief summary about your professional experience and goals.</p>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <div class="job">
+        <h3>Job Title - Company</h3>
+        <span class="date">Year - Year</span>
+        <ul>
+          <li>Accomplishment or responsibility 1</li>
+          <li>Accomplishment or responsibility 2</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="school">
+        <h3>University - Degree</h3>
+        <span class="date">Year - Year</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>Skill 1</li>
+        <li>Skill 2</li>
+        <li>Skill 3</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p class="container">&copy; 2024 Your Name</p>
+  </footer>
 </body>
 </html>
