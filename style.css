@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.contact-info {
+  margin: 5px 0 10px;
+}
+
+.btn {
+  background: #fff;
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+main section {
+  margin-bottom: 20px;
+}
+
+.job, .school {
+  margin-bottom: 10px;
+}
+
+.job .date, .school .date {
+  font-style: italic;
+  display: block;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background: #f0f0f0;
+  display: inline-block;
+  margin: 5px 5px 0 0;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #f7f7f7;
+  margin-top: 20px;
+}
